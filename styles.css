@@ -144,3 +144,25 @@
   .winning-message.show {
     display: flex;
   }
+  .back-button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;  
+    bottom: 15vh;
+  }
+
+  .back-button button{
+    font-size: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: .25em .5em;
+  }
+
+  .back-button button:hover{
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    border-color: white;
+    padding: .25em .5em;
+  }
